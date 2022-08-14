@@ -1,5 +1,5 @@
 # pull the official base node image
-FROM node:14-alpine
+FROM node:current-alpine
 
 # set wokring directory
 WORKDIR /usr/src/app
